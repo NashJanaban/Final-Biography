@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Nash Biography", page_icon=":alien_monster:", layout="wide")
+st.set_page_config(page_title="Nash Biography", page_icon=":collision:", layout="wide")
 
 col1, col2 = st.columns([1, 1]) 
 with col1:
