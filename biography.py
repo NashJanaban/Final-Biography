@@ -7,6 +7,7 @@ with col1:
     st.image("https://scontent.xx.fbcdn.net/v/t1.15752-9/463211923_1258770261997420_2210241824044250435_n.jpg?stp=dst-jpg_s480x480&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHv_5G8LOJekPY7nvjRP3piQHxyDlyEhE1AfHIOXISETct-27_j21INcRDclZ2dRdp8kXrDhhN59f4DO0mPni92&_nc_ohc=uECPib8fDyQQ7kNvgH62kn2&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QGd7ceg5YSHps0lwdFdMB2LAqb3HXSiPm7NAoQk5HNrhg&oe=6772A0F5", width=400,)
 with col2:
     st.write("###")
+    st.write("###")
     st.title("**NASH EOWYN Y. JANABAN**")
     st.write(
         "A Computer Engineering student, activity in Programming Logic and Design Called - Biography Streamlit "
