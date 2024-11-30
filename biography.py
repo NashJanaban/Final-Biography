@@ -2,11 +2,6 @@ import streamlit as st
 
 st.set_page_config(page_title="Nash Biography", page_icon=":alien_monster:", layout="wide")
 
-from form.contact import contact_form
-
-@st.dialog("Contact Me")
-def show_contact_form():
-    contact_form()
 
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
