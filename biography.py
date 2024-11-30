@@ -2,8 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Nash Biography", page_icon=":alien_monster:", layout="wide")
 
-
-col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
+col1, col2 = st.columns([2, 1]) 
 with col1:
     st.image("https://scontent.xx.fbcdn.net/v/t1.15752-9/463211923_1258770261997420_2210241824044250435_n.jpg?stp=dst-jpg_s480x480&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHv_5G8LOJekPY7nvjRP3piQHxyDlyEhE1AfHIOXISETct-27_j21INcRDclZ2dRdp8kXrDhhN59f4DO0mPni92&_nc_ohc=uECPib8fDyQQ7kNvgH62kn2&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QGd7ceg5YSHps0lwdFdMB2LAqb3HXSiPm7NAoQk5HNrhg&oe=6772A0F5", width=230,)
 with col2:
