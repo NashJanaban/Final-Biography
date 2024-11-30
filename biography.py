@@ -8,7 +8,7 @@ with col1:
 with col2:
     st.title("Nash Eowyn Y. Janaban")
     st.write(
-        "A Computer Engineering student, activity in Programming Logic and Design Called "Biography Streamlit" "
+        "A Computer Engineering student, activity in Programming Logic and Design Called - Biography Streamlit "
     )
   
 st.write("\n")
