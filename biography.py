@@ -12,14 +12,13 @@ col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
     st.image("https://scontent.xx.fbcdn.net/v/t1.15752-9/463211923_1258770261997420_2210241824044250435_n.jpg?stp=dst-jpg_s480x480&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHv_5G8LOJekPY7nvjRP3piQHxyDlyEhE1AfHIOXISETct-27_j21INcRDclZ2dRdp8kXrDhhN59f4DO0mPni92&_nc_ohc=uECPib8fDyQQ7kNvgH62kn2&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QGd7ceg5YSHps0lwdFdMB2LAqb3HXSiPm7NAoQk5HNrhg&oe=6772A0F5", width=230,)
 with col2:
-    st.title("Nash Janaban", anchor=False)
+    st.title("Nash Janaban")
     st.write(
         "A Computer Engineering student, activity in Programming Logic and Design"
     )
-    if st.button("Contact Me"):
-        show_contact_form()
+  
 st.write("\n")
-st.subheader("Personal Details", anchor=False)
+st.subheader("Personal Details")
 st.write(
     """- Name is Nash Eowyn Y. Janaban
 - Birthday May 11, 2006
@@ -29,7 +28,7 @@ st.write(
 , height=150
 )
 st.write("\n")
-st.subheader("Family Background", anchor=False)
+st.subheader("Family Background",)
 st.text_area("",
     """Father's Name is Ian P. Janaban
 Birthday: October 4, 1978
